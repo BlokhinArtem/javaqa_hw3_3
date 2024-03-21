@@ -7,7 +7,5 @@ public class Main {
         double monthlyPayment = service.calculate(amount, percentPerYear, year);
         int roundingNumber = (int) monthlyPayment; //преобразование месячного платежа в int
         System.out.println("ежемесячный платёж" + roundingNumber);
-
-
     }
 }
