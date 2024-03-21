@@ -4,12 +4,9 @@ public class Main {
         int amount = 1_000_000;
         double percentPerYear = 9.99;
         int year = 3;
-        double monthlyPayment = service.calculate(amount, percentPerYear,year);
+        double monthlyPayment = service.calculate(amount, percentPerYear, year);
         int roundingNumber = (int) monthlyPayment; //преобразование месячного платежа в int
         System.out.println("ежемесячный платёж" + roundingNumber);
-
-
-
 
 
     }
